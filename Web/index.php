@@ -24,11 +24,19 @@
             <h5 class="lupasandi">Lupa kata sandi?</h5>
             <h5 class="atau">── atau ──</h5>
             <div class="Continue">
-                <button class="btnContinue"><img class="iconIg" src="Image/iconIg.png" alt="iconIg">Continue with Instagram</button>
+                <button class="btnContinue"><img class="iconIg" src="Image/iconIg.png" alt="iconIg">Continue with Instagram <img class="iconnext" src="Image/iconNext.png"></button>
+            </div>
+            <div class="footer">
+                <h5>©2025</h5>
+                <h5>Ketentuan Threads</h5>
+                <h5>Kebijakan Privasi</h5>
+                <h5>Kebijakan Cookie</h5>
+                <h5>Laporkan Masalah</h5>
             </div>
         </div>
         <div class="kanan">
             <img class="gambarKanan" src="Image/fotoKanan.png" alt="Dekorasi Kanan">
+            <h5>Pindai untuk mendapatkan aplikasi</h5>
         </div>
     </div>
 </body>
