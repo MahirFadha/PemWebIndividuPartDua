@@ -14,6 +14,7 @@ body {
 .gambarKiri {
   width: 140px;
   height: 140px;
+  user-select: none;
 }
 
 .tengah {
@@ -25,6 +26,7 @@ body {
   width: 150px;
   height: 30px;
   margin-left: 50px;
+  user-select: none;
 }
 
 h3.header {
@@ -63,12 +65,16 @@ input {
 }
 
 .tengah h5 {
-  color: rgb(255, 255, 255);
+  color: rgb(111, 110, 110);
   font-family: sans-serif;
   text-align: center;
   font-weight: 200;
   margin-top: 16px;
   margin-bottom: 28px;
+}
+
+.lupasandi {
+  cursor: pointer;
 }
 
 .Continue {
@@ -91,6 +97,7 @@ input {
   gap: 40px;
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .iconnext {
@@ -106,6 +113,10 @@ input {
   justify-content: center;
 }
 
+.footerclick {
+  cursor: pointer;
+}
+
 .kanan {
   flex-grow: 2;
   text-align: end;
@@ -114,4 +125,32 @@ input {
 .gambarKanan {
   width: 250px;
   height: 200px;
+  user-select: none;
+}
+
+.kanan h5 {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-right: 34px;
+  margin-top: 200px;
+  margin-bottom: 16px;
+}
+
+.qr {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+  outline: gray solid 1px;
+  margin-right: 40px;
+  align-items: center;
+  justify-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.qr:hover {
+  width: 190px;
+  height: 190px;
+  margin-right: 35px;
 }
