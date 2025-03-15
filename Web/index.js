@@ -1,6 +1,7 @@
 var haha = document.querySelector(".btnLogin");
 var usernameInput = document.querySelector(".inputUsername");
 var pwInput = document.querySelector(".inputPw");
+var btnIg = document.querySelector(".Continue");
 
 function checkInput() {
   if (usernameInput.value.trim() !== "" && pwInput.value.trim() !== "") {
@@ -18,3 +19,7 @@ haha.addEventListener("click", function () {
     window.alert("Haha");
   }
 });
+
+btnIg.onclick = function () {
+  window.location.href = "continuewithig.php";
+};
