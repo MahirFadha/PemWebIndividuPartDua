@@ -60,8 +60,16 @@ input {
   height: 58px;
   margin: 4px;
   border-radius: 14px;
-  color: gray;
+  color: black;
   font-weight: 700;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btnLogin:disabled {
+  cursor: not-allowed;
+  color: gray;
+  pointer-events: all;
 }
 
 .tengah h5 {

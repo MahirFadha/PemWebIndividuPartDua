@@ -19,7 +19,7 @@
             <div class="input">
                 <input class="inputUsername" type="text" placeholder="Username, telephone, or email">
                 <input class="inputPw" type="password" placeholder="Password">
-                <button class="btnLogin">Login</button>
+                <button class="btnLogin" disabled type="button">Login</button>
             </div>
             <h5 class="lupasandi">Lupa kata sandi?</h5>
             <h5 class="atau">── atau ──</h5>
