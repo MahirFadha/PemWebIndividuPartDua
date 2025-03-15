@@ -40,6 +40,7 @@
             <img class="qr" src="Image/qrThreads.jpg" alt="Qr">
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
